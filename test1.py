@@ -3,7 +3,7 @@ import unittest
 
 from p1 import getSum
 
-class test(unittest.Testcase):
+class test(unittest.TestCase):
   def test_list_int(self):
     """
     Test case 1
