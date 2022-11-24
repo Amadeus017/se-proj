@@ -1,2 +1,2 @@
-def display():
-  print('Success!')
+def getSum(data):
+  return sum(data)
