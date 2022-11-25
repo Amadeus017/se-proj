@@ -18,7 +18,7 @@ agent any
 		}
 		stage('Testing stage 2') {
 			steps {
-				sh "/usr/bin/python3 test1.py"
+				sh "/usr/bin/python3 test_2.py"
 			}
 		}
 	}
