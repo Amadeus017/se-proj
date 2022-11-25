@@ -16,29 +16,13 @@ class test(unittest.TestCase):
     """
     Test case 2
     """
-    data = [20, 30 , 40]
-    ans = getSum(data)
-    self.assertEqual(ans, 60)
-    
-  def test_sum3(self):
-    """
-    Test case 3
-    """
     data = [100, 1]
     ans = getSum(data)
     self.assertEqual(ans, 101)
     
-  def test_sum4(self):
+  def test_sum3(self):
     """
-    Test case 4
-    """
-    data = [0, 0, 0, 0, 0]
-    ans = getSum(data)
-    self.assertEqual(ans, 5)
-    
-  def test_sum5(self):
-    """
-    Test case 5
+    Test case 3
     """
     data = [55, 55]
     ans = getSum(data)
